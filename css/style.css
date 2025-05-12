@@ -2085,7 +2085,7 @@ ol.list-num-count.list-outline-none > li:before {
 }
 /*1.3 static*/
 .static {
-  position: static;
+  /* position: static; */
 }
 
 /*-------------------------------------
@@ -8121,7 +8121,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
   .header-nav .nav > li .sub-menu,
   .header-nav .nav > li .mega-menu {
     display: none;
-    position: static;
+    /* position: static; */
     visibility: visible;
     width: auto;
     background: #f9f9f9;
@@ -8344,7 +8344,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 .vertical-nav ul > li ul,
 .vertical-nav ul > li .sub-menu {
   display: none;
-  position: static;
+  /* position: static; */
   visibility: visible;
   width: auto;
 }
@@ -8477,9 +8477,9 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 /*-------------------------------------
 	3. when header is sticky
 -------------------------------------*/
-.sticky-no .main-bar {
+/* .sticky-no .main-bar {
   position: static !important;
-}
+} */
 
 /*-------------------------------------
 	4. when header is sticky
@@ -9212,9 +9212,9 @@ ol.comment-list li.comment .comment-respond .comment-form p {
   background-color: #fff;
 }
 @media only screen and (max-width: 1200px) {
-  .footer-fixed .site-footer {
+  /* .footer-fixed .site-footer {
     position: static;
-  }
+  } */
   .footer-fixed .page-wraper {
     padding-bottom: 0 !important;
   }
@@ -9657,8 +9657,7 @@ button.scroltop span {
 .section-full {
   position: relative;
   padding: 30px 0px;
-  width: 100vw;
-  margin: 10px;
+  width: 100%;
 }
 /*-------------------------------------
 	1. Section Head Part 
@@ -11796,9 +11795,9 @@ ol.commentlist li::after {
   .aside-right-part {
     display: none;
   }
-  .aside-right-item2 {
+  /* .aside-right-item2 {
     position: static;
-  }
+  } */
 }
 /*=============contact Popup =================*/
 
@@ -12344,9 +12343,9 @@ ol.commentlist li::after {
   margin-right: 10px;
 }
 
-.top-half-section-wrap {
+/* .top-half-section-wrap {
   position: static;
-}
+} */
 
 .top-half-section {
   margin-top: -100px;
@@ -14445,4 +14444,8 @@ STEP NUMBER
   position: relative;
   max-width: 840px;
   margin: 0px auto;
+}
+
+.short-notes {
+  margin: 50px 100px;
 }
