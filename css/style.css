@@ -1,3 +1,7 @@
+.tp-rightarrow,
+.tp-leftarrow {
+  display: none !important;
+}
 /*
 ==========================
 Template: carservx - Car Service & Repair Template
