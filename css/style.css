@@ -5498,6 +5498,7 @@ label {
 .input-group-addon,
 .input-group-btn {
   display: table-cell;
+  padding: 10px;
 }
 .input-group-addon {
   background: #fff;
@@ -9443,13 +9444,11 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 
 .footer-wide .container-fluid {
   width: 100%;
-  max-width: 1170;
 }
 
 @media only screen and (max-width: 1366px) {
   .footer-wide .container-fluid {
     width: 100%;
-    max-width: 1170;
   }
 }
 
@@ -9657,6 +9656,9 @@ button.scroltop span {
 }
 .section-full {
   position: relative;
+  padding: 30px 0px;
+  width: 100vw;
+  margin: 10px;
 }
 /*-------------------------------------
 	1. Section Head Part 
@@ -14443,4 +14445,8 @@ STEP NUMBER
   position: relative;
   max-width: 840px;
   margin: 0px auto;
+}
+
+.prateek {
+padding-left: 50px;
 }
