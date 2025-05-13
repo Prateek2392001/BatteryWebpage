@@ -3166,12 +3166,14 @@ ol.list-num-count.list-outline-none > li:before {
   padding: 10px 30px;
   text-transform: uppercase;
   letter-spacing: 1px;
+  position: relative;
   overflow: hidden;
   cursor: pointer;
   display: inline-block;
   background-color: #d72323;
   border: none;
   font-size: 16px;
+  top: 25px;
 }
 
 .site-button-secondry {
@@ -8464,12 +8466,12 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     color: #999;
   }
 
-  .nav-dark.header-nav .nav > li > a:hover,
+  /* .nav-dark.header-nav .nav > li > a:hover,
   .nav-dark.header-nav .nav > li > a:active,
   .nav-dark.header-nav .nav > li > a:focus {
     background-color: #23282f;
     color: #d72323;
-  }
+  } */
   .nav-dark.header-nav .nav > li ul,
   .nav-dark.header-nav .nav > li .sub-menu,
   .nav-dark.header-nav .nav > li .mega-menu {
@@ -9752,7 +9754,7 @@ button.scroltop span {
   h1,
   h2,
   h3 {
-    font-size: 32px;
+    font-size: 14px;
     line-height: normal;
   }
 }
@@ -12758,9 +12760,6 @@ STEP NUMBER
 }
 
 .icon-count-2 {
-  max-height: fit-content;
-  height: fit-content;
-  min-height: 330px;
   position: relative;
   -webkit-transition: all 0.5s linear;
   -moz-transition: all 0.5s linear;
@@ -14452,5 +14451,5 @@ STEP NUMBER
 }
 
 .short-notes {
-  margin: 50px 100px;
+  margin: 50px 8%;
 }
