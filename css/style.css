@@ -3173,7 +3173,6 @@ ol.list-num-count.list-outline-none > li:before {
   background-color: #d72323;
   border: none;
   font-size: 16px;
-  
 }
 
 .site-button-secondry {
@@ -12470,6 +12469,18 @@ ol.commentlist li::after {
   display: table;
   padding-bottom: 80px;
   position: relative;
+  margin: 0 10%;
+}
+@media (max-width: 450px) {
+  .talk-section2-outer {
+    flex-direction: column;
+    display: flex;
+    margin: 0 2% !important;
+  }
+  .talk-section-left2,
+  .talk-section-right2 {
+    width: 100% !important;
+  }
 }
 .talk-section-mid2 {
   display: table-cell;
@@ -12511,17 +12522,9 @@ ol.commentlist li::after {
   }
 }
 @media only screen and (max-width: 1200px) {
-  .talk-section-left2 img,
-  .talk-section-right2 img {
-    display: none;
-  }
 }
 
 @media only screen and (max-width: 991px) {
-  .talk-section-left2,
-  .talk-section-right2 {
-    display: none;
-  }
   .talk-section-mid2 {
     max-width: 100%;
   }
@@ -14454,3 +14457,8 @@ STEP NUMBER
   margin: 50px 8%;
 }
 
+@media (max-width: 450px) {
+  .mobile-none {
+    display: none !important;
+  }
+}
