@@ -12758,10 +12758,10 @@ STEP NUMBER
 }
 
 .icon-count-2 {
+  max-height: fit-content;
+  height: fit-content;
+  min-height: 330px;
   position: relative;
-max-height: 330px;
-  height: 330px;
-  min-height: auto;
   -webkit-transition: all 0.5s linear;
   -moz-transition: all 0.5s linear;
   -ms-transition: all 0.5s linear;
