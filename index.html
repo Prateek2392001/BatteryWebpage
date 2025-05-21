@@ -731,19 +731,26 @@
                                     </div>
                                 </div>
 
-                                <!-- Right Side: Contact Form -->
                                 <div class="col-md-6 talk-section-right2">
-                                    <form class="bg-white p-a30 rounded">
+                                    <form action="https://formsubmit.co/prateek2392001@gmail.com" method="POST"
+                                        class="bg-white p-a30 rounded">
+
+                                        <input type="hidden" name="_captcha" value="false">
+                                        <input type="hidden" name="_next"
+                                            value="https://indoinventenergies.netlify.app/thank-you.html">
+
                                         <div class="row">
                                             <div class="col-md-6 m-b20">
-                                                <input type="text" class="form-control" placeholder="Your Name">
+                                                <input type="text" name="name" class="form-control"
+                                                    placeholder="Your Name" required>
                                             </div>
                                             <div class="col-md-6 m-b20">
-                                                <input type="email" class="form-control" placeholder="Your Email">
+                                                <input type="email" name="email" class="form-control"
+                                                    placeholder="Your Email" required>
                                             </div>
                                             <div class="col-12 m-b20">
-                                                <textarea class="form-control" rows="4"
-                                                    placeholder="Your Message"></textarea>
+                                                <textarea name="message" class="form-control" rows="4"
+                                                    placeholder="Your Message" required></textarea>
                                             </div>
                                             <div class="col-12 text-end">
                                                 <button type="submit" class="site-button site-btn-effect">
@@ -753,7 +760,6 @@
                                         </div>
                                     </form>
                                 </div>
-
                             </div>
                         </div>
 
